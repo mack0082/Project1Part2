@@ -10,105 +10,96 @@
 namespace Project1Part2 {
     
     
-    public partial class Navbar {
+    public partial class UserDetails {
         
         /// <summary>
-        /// home control.
+        /// AlertFlash control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlertFlash;
         
         /// <summary>
-        /// PublicPlaceHolder control.
+        /// StatusLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PublicPlaceHolder;
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
         
         /// <summary>
-        /// login control.
+        /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
+        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
         
         /// <summary>
-        /// register control.
+        /// PhoneNumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
+        protected global::System.Web.UI.WebControls.TextBox PhoneNumberTextBox;
         
         /// <summary>
-        /// UserPlaceHolder control.
+        /// EmailTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder UserPlaceHolder;
+        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
         
         /// <summary>
-        /// users control.
+        /// PasswordPlaceHolder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl users;
+        protected global::System.Web.UI.WebControls.PlaceHolder PasswordPlaceHolder;
         
         /// <summary>
-        /// GamePlaceHolder control.
+        /// PasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder GamePlaceHolder;
+        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
         
         /// <summary>
-        /// menu control.
+        /// ConfirmPasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl menu;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmPasswordTextBox;
         
         /// <summary>
-        /// Games control.
+        /// CancelButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Games;
+        protected global::System.Web.UI.WebControls.Button CancelButton;
         
         /// <summary>
-        /// about control.
+        /// SaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
-        
-        /// <summary>
-        /// contact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact;
+        protected global::System.Web.UI.WebControls.Button SaveButton;
     }
 }

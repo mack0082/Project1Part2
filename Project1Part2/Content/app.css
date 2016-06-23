@@ -6,7 +6,12 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 80px;
+ /*margin-bottom: 80px;*/ 
+  
+    padding-bottom: 50px;
+    
+    background: url(https://images4.alphacoders.com/228/228754.jpg) no-repeat center center;
+    background-size: cover;
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -107,7 +112,7 @@ body {
 
 .footer-distributed .footer-center p a{
 	color:  #5383d3;
-	text-decoration: none;;
+	text-decoration: none;
 }
 
 
@@ -186,3 +191,8 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+
+
+
+

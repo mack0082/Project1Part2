@@ -7,13 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project1Part2
-{
-
-
-    public partial class Default
-    {
-
+namespace Project1Part2 {
+    
+    
+    public partial class Default {
+        
+        /// <summary>
+        /// PreviousWeekButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PreviousWeekButton;
+        
+        /// <summary>
+        /// NextWeekButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button NextWeekButton;
+        
         /// <summary>
         /// GameGridView control.
         /// </summary>
