@@ -89,14 +89,14 @@ namespace Project1Part2
                 db.SaveChanges();
 
                 // Redirect back to the updated students page
-                Response.Redirect("~/Games.aspx");
+                Response.Redirect("~/Game/Games.aspx");
             }
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)
         {
             // Redirect back to Students page
-            Response.Redirect("~/Game.aspx");
+            Response.Redirect("~/Game/Game.aspx");
         }
     }
 }

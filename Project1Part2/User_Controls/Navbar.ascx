@@ -32,7 +32,7 @@
 
                  <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-bars fa-lg"></i> About Us</a></li>                
                 <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
-                
+                <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
            
                  </ul>
         </div>
