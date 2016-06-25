@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 /**
  * @author: Mayank
- * @date: June 08, 2016
+ * @date: June 24, 2016
  * @version: 0.0.1 - added SetActivePage method
  */
 
@@ -63,12 +63,12 @@ namespace Project1Part2
                     home.Attributes.Add("class", "active");
                     break;
                 case "Games":
-                    Games.Attributes.Add("class", "active");
+                    games.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;
-                case "Game Menu":
+                case "Main Menu":
                     menu.Attributes.Add("class", "active");
                     break;
                 case "Login":

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-// required for EF DB Access
+// required for  Users DB Access
 using Project1Part2.Models;
 using System.Web.ModelBinding;
 

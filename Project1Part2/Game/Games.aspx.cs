@@ -15,7 +15,7 @@ namespace Project1Part2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // if loading the page for the first time, populate the student grid
+            // if loading the page for the first time, populate the Game grid
             if (!IsPostBack)
             {
                 Session["SortColumn"] = "GameID"; // default sort column
@@ -27,12 +27,12 @@ namespace Project1Part2
 
         private void GetGames()
         {
-            // connect to EF
+            // connect to Game
             using (GameConnection db = new GameConnection())
             {
                 string SortString = Session["SortColumn"].ToString() + " " + Session["SortDirection"].ToString();
 
-                // query the Game Table using EF and LINQ
+                // query the Game Table 
                 var Games = (from allGames in db.Games
                              select allGames);
 
@@ -52,7 +52,7 @@ namespace Project1Part2
             // get the selected GameId
             int GameID = Convert.ToInt32(GameGridView.DataKeys[selectedRow].Values["GameID"]);
 
-            // use EF to find the selected student in the DB and remove it
+            // use Game Connection to find the selected Game in the DB and remove it
             using (GameConnection db = new GameConnection())
             {
                 // create object of the Game Class and store the query string inside of it
@@ -60,7 +60,7 @@ namespace Project1Part2
                                     where gameRecords.GameID == GameID
                                     select gameRecords).FirstOrDefault();
 
-                // remove the selected student from the db
+                // remove the selected game from the db
                 db.Games.Remove(deletedGame);
 
                 // save my changes back to the database

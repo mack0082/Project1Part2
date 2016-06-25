@@ -9,32 +9,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="Default.aspx"><i class="fa fa-gamepad fa-lg"></i> Game Tracker</a>
+            <a class="navbar-brand" href="Default.aspx"><i class="fa fa-gamepad fa-lg"></i>Game Tracker</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
- <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
 
                 <asp:PlaceHolder ID="PublicPlaceHolder" runat="server">
-                    <li id="login" runat="server"><a href="/Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
-                    <li id="register" runat="server"><a href="/Register.aspx"><i class="fa fa-user-plus fa-lg"></i> Register</a></li>
+                    <li id="login" runat="server"><a href="/Login.aspx"><i class="fa fa-sign-in fa-lg"></i>Login</a></li>
+                    <li id="register" runat="server"><a href="/Register.aspx"><i class="fa fa-user-plus fa-lg"></i>Register</a></li>
                 </asp:PlaceHolder>
 
                 <asp:PlaceHolder ID="UserPlaceHolder" runat="server">
-                    <li id="users" runat="server"><a href="/Admin/Users.aspx"><i class="fa fa-users fa-lg"></i> Users</a></li>
+                    <li id="users" runat="server"><a href="/Admin/Users.aspx"><i class="fa fa-users fa-lg"></i>Users</a></li>
                 </asp:PlaceHolder>
 
                 <asp:PlaceHolder ID="GamePlaceHolder" runat="server">
-                <li id="menu" runat="server"><a href="/Game/MainMenu.aspx"><i class="fa fa-home fa-lg"></i> </a></li>
-                <li id="Games" runat="server"><a href="/Game/Games.aspx"><i class="fa fa-puzzle-piece fa-lg"></i> Games</a></li>
-               </asp:PlaceHolder>
+                    <li id="menu" runat="server"><a href="/Game/MainMenu.aspx"><i class="fa fa-home fa-lg"></i>Main Menu</a></li>
+                    <li id="games" runat="server"><a href="/Game/Games.aspx"><i class="fa fa-puzzle-piece fa-lg"></i>Games</a></li>
+                    <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i>Logout</a></li>
+                </asp:PlaceHolder>
 
-                 <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-bars fa-lg"></i> About Us</a></li>                
-                <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
-                <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
-           
-                 </ul>
+
+                <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact Us</a></li>
+
+
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
