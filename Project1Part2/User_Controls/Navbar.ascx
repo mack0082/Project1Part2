@@ -26,13 +26,13 @@
                 </asp:PlaceHolder>
 
                 <asp:PlaceHolder ID="GamePlaceHolder" runat="server">
-                    <li id="menu" runat="server"><a href="/Game/MainMenu.aspx"><i class="fa fa-home fa-lg"></i>Main Menu</a></li>
+                    <li id="menu" runat="server"><a href="/Game/MainMenu.aspx"><i class="fa icon-th fa-lg"></i>Main Menu</a></li>
                     <li id="games" runat="server"><a href="/Game/Games.aspx"><i class="fa fa-puzzle-piece fa-lg"></i>Games</a></li>
                     <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-sign-out fa-lg"></i>Logout</a></li>
                 </asp:PlaceHolder>
 
 
-                <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact Us</a></li>
+                <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact</a></li>
 
 
             </ul>
